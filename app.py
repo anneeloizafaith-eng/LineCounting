@@ -7,7 +7,7 @@ from PIL import Image
 st.set_page_config(page_title="Line Counting", page_icon="👥")
 st.title("Line Counting 👥")
 
-model = YOLO(r'C:\Users\Angelica\OneDrive\Desktop\Line Counting\best.pt')
+model = YOLO('best.pt')
 
 # Settings
 cashier_count = st.number_input("How many cashiers are in the image?",
